@@ -1,0 +1,11 @@
+#This is a basic workflow to elp you get started with actions
+
+name: My Workfile
+
+#Controls when he workflow will run
+on:
+branches: [ main, mybranch ]
+pull_request:
+branches: [ main ]
+
+workflow_dispatch:
